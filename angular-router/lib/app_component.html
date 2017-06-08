@@ -1,3 +1,12 @@
-<h1>My First AngularDart App</h1>
+<div class="container">
+    <h1>Applications main page</h1>
+    <nav>
+        <a [routerLink]="['EngCardsPage']">Crisis Center</a>
+        <a [routerLink]="['BusinessPage']">Heroes</a>
+    </nav>
+    <router-outlet></router-outlet>
+</div>
 
-<todo-list></todo-list>
+<!-- Routed views go here -->
+
+
